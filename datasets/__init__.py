@@ -2,6 +2,7 @@
 DATASETS API
 """
 from datasets.datasets.base_dataset import BaseDataset
+from datasets.datasets.imagenet_dataset import ImageNetDataset
 from datasets.datasets.celeb_a_dataset import CelebADataset
 from datasets.datasets.multi_task_facial_landmark_dataset import MultiTaskFacialLandmarkDataset
 from datasets.datasets.city_scapes_dataset import CityScapesDataset
@@ -15,6 +16,7 @@ from datasets import collators
 
 __all__ = (
     'BaseDataset',
+    'ImageNetDataset',
     'CelebADataset',
     'MultiTaskFacialLandmarkDataset',
     'CityScapesDataset',
